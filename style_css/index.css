@@ -1,0 +1,475 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+.header_header{
+	height: 600px;
+	background-image: linear-gradient(to right  , white 60%,#96cdf2 40%);
+	position: relative;
+
+}
+.list_header{
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.h1_list{
+	font-size: 20px;
+font-family: 'Silkscreen', cursive;
+    position: absolute;
+    top: 14px;
+    left: 49px;
+}
+
+.image_list{
+border-radius:10px;
+display: inline-block;
+padding: 5px;
+width: 50px;
+
+	
+}
+
+.spa{
+	color: red;
+}
+
+.div---{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.div---2{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.ul_div--{
+	width: 90%;
+	height: 100%;
+	padding: 0px;
+}
+.ul_div-- li{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 10px 5px;
+}
+
+.class_B{
+	text-decoration: none;
+	color: black;
+}
+
+.ul_div-- li:hover{
+
+	background-color: #2b52ba;
+
+}
+
+.ul_div-- li:hover a{
+
+	color: white;
+
+}
+
+
+.aside_p{
+	width: auto;
+	height:auto;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	 left: 84px;
+    bottom: 150px;
+}
+
+.aside_p h2{
+	color: black;
+	font-size: 50px;
+	padding: 5px 5px 5px 10px;
+}
+.p_h2{
+	color: #1e8cd6 ;
+	font-size: 50px;
+	padding: 0px 5px 10px 10px;
+	
+}
+.test{
+	padding: 5px 5px 10px 10px;
+
+}
+
+.button1{
+	width: 140px;
+	height:35px ;
+	border-style: solid;
+	padding: 10px;
+	background-color: white;
+	margin:  10px 10px 10px 10px;
+	
+}
+
+.button2{
+	width: 140px;
+	height:35px ;
+	border-style: solid;
+	padding: 10px ;
+	background-color: white;
+	margin:  10px 10px 10px 10px;
+}
+
+.button1 a{
+	text-decoration: none;
+	color: black;
+}
+.button2 a{
+	text-decoration: none;
+	color: black;
+}
+.button1:hover{
+	background-color: #2b52ba;
+	border-style: none;
+}
+.button1:hover a{
+	color: white;
+}
+.button2:hover{
+	background-color: #2b52ba;
+	border-style: none;
+}
+.button2:hover a{
+	color: white;
+}
+.p_img{
+	position: absolute;
+	left: 800px;
+	top: 150px;
+	width: 300px;
+	height: 400px;
+
+}
+.p_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.main_test{
+	height: auto;
+}
+
+.h3_---{
+	text-align: center;
+	padding: 30px 10px 10px 10px;
+	font-size: 40px;
+}
+.main_p{
+	text-align: center;
+}
+
+.numbe{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.aside_9{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	padding: 22px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.p_tee{
+	font-size: 30px;
+	padding: 5px;
+}
+
+.span_tee{
+	font-size: 17px;
+	padding: 5px;
+}
+.aside_head{
+	height: 400px;
+	position: relative;
+}
+.div_http{
+	width: 500px;
+	height: 340px;
+	position: absolute;
+	right: 300px;
+	top: 30px;
+
+}
+
+.div_http img{
+	width: 500px;
+	height: 340px;
+	object-fit: contain;
+}
+.div_tet{
+	width: 500px;
+	height: 340px;
+	position: absolute;
+	left: 140px;
+	top: 30px;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	background-color: inherit;
+	border-style: solid;
+	border-color: white;
+}
+
+.div_tet h4{
+	font-size: 40px;
+	padding: 15px;
+}
+.div_tet p{
+	font-size:16px;
+	padding: 10px;
+}
+.div_tet span{
+	font-size:16px;
+	padding: 10px;
+}
+
+.div_tet span:hover{
+	border-bottom: solid;
+	border-color: red;
+	
+}
+
+.foter{
+	height: auto;
+	
+}
+.litter_p{
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+
+.litter_p h2{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.litter_p p{
+	text-align: center;
+	padding: 10px;
+}
+.div_aside_all{
+	width: 90%;
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	height: auto;
+	display: flex;
+	justify-content:center;
+
+}
+.all_aside{
+	width: 200px;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	box-shadow: 0px 1px 1px 0px;
+}
+.all_aside h3{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.all_aside p{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.all_aside:hover{
+	border-bottom:  solid;
+	border-color:#2b52ba ;
+}
+
+.slider-foter{
+	height: auto;
+	
+}
+
+.fotter_test{
+	margin-left:auto;
+	margin-right:auto;
+	width: 90%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
+.fotter_test h3{
+	font-size: 33px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.main-{
+	width: 90%;
+	height:auto;
+	margin: auto;
+}
+.div-1{
+	width: 300px;
+	height: 470px;
+	box-shadow: 1px 1px 2px ;
+	margin: 10px;
+	
+}
+
+.div-1_img{
+	width: 100%;
+	height: 70%;
+	position: relative;
+}
+
+.div-1_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.div-2{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.div-2 h1{
+	padding: 6px;
+}
+.div-2 p{
+	padding: 6px;
+}
+.div-2-button{
+	width: 100%;
+	height: auto;
+	padding: 6px;
+
+}
+.bu1{
+	width: 150px;
+	background-color:green ;
+	padding: 5px;
+	border-style: none;
+	border-radius: 5px;
+
+}
+
+.bu2{
+	width: 80px;
+	height: auto;
+	background-color: white;
+	box-shadow:  2px 2px 10px;
+	padding: 5px;
+	margin-left: 20px;
+	border-radius: 10px;
+
+}
+
+.bu2 a{
+	text-decoration: none;
+	color: black;
+}
+.bu1 a{
+	text-decoration: none;
+	color: white;
+}
+
+.bu1:hover{
+
+	background-color: white;
+}
+
+.bu1:hover a{
+
+	color: black
+}
+
+.bu2:hover{
+	
+	background-color: black;
+}
+
+.bu2:hover a{
+
+	color: white;
+}
+
+.div-1:hover{
+	border-bottom: solid;
+	border-color: blue;
+}
+
+.end{
+	height: 400px;
+	border-bottom: solid;
+	background-color: #e2dddd;	
+	position: relative;
+}
+.footer_end{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.footer_end h2{
+	font-size: 40px;
+	padding: 19px;
+
+}
+.footer_end2{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.end_footer{
+	width: 250px;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	box-shadow: 1px 1px 14px;
+}
+
+.end_footer h6{
+	padding: 5px;
+	font-size: 20px;
+}
+.end_footer p{
+	padding: 5px;
+}
+
+.end_footer:hover{
+	box-shadow: 2px 2px 30px;
+	border-bottom: solid;
+	border-color: red;
+}
+
+
